@@ -47,7 +47,7 @@ const Navbar = () => {
           </div>
         </div>
         {toggle && (
-          <div className="relative top-5 lg:hidden z-10">
+          <div className="relative top-5 lg:hidden ">
             <ul className="w-screen text-center">
               <li className=" py-3 tracking-wider hover:bg-[#0045a6] hover:text-white">
                 COMPANY
