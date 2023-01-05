@@ -16,11 +16,10 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="bg-white sticky">
+      <div className="bg-white ">
         <div className="w-[100%] px-[5%] border-b-gray-400 h-20 flex justify-between items-center shadow-lg md:px-[2.5%] xl:px-[10%] 2xl:px-[12.5%]">
           <div className="">
             <img className="h-14" src="./pictures/logo.webp" alt="" />
-            {/* <h1 className="text-3xl font-bold">Logo</h1> */}
           </div>
           <div className="lg:flex lg:justify-end lg:items-center">
             <div className="hidden lg:block">
@@ -47,7 +46,7 @@ const Navbar = () => {
           </div>
         </div>
         {toggle && (
-          <div className="relative top-5 lg:hidden ">
+          <div className="absolute h-screen opacity-80 font-bold top-20 lg:hidden z-10 bg-white">
             <ul className="w-screen text-center">
               <li className=" py-3 tracking-wider hover:bg-[#0045a6] hover:text-white">
                 COMPANY
@@ -71,6 +70,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
+      {/* <div className="bg-white border-2 border-black  h-[456px]"></div> */}
     </>
   );
 };
