@@ -29,7 +29,7 @@ export default class CarouselHomePage extends Component {
             />
           </div>
         </Carousel>
-        {/* carousel for laptop and large comps  */}
+        {/* carousel for laptop and large comps image + text */}
         <Carousel
           autoPlay={true}
           showThumbs={false}
@@ -43,7 +43,7 @@ export default class CarouselHomePage extends Component {
               className="hidden md:block lg:h-[500px] xl:h-[600px]"
               src="./pictures/carousel-pic1.webp"
             />
-            <div className="absolute top-[30%] right-[30%] py-5 mx-[20%] md:hidden lg:block">
+            <div className="absolute top-[30%] right-[30%] py-5 mx-[20%] md:hidden lg:block text-start">
               <h1 className="text-2xl">Reimagine With Purpose</h1>
               <p className="text-xl py-3">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -59,7 +59,7 @@ export default class CarouselHomePage extends Component {
               className="hidden md:block lg:h-[500px] xl:h-[600px]"
               src="./pictures/carousel-pic2.webp"
             />
-            <div className="absolute top-[30%] left-[30%] py-5 mx-[20%] md:hidden lg:block">
+            <div className="absolute top-[30%] left-[30%] py-5 mx-[20%] md:hidden lg:block text-start">
               <h1 className="text-2xl">Reimagine With Purpose</h1>
               <p className="text-xl py-3">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -71,6 +71,7 @@ export default class CarouselHomePage extends Component {
             </div>
           </div>
         </Carousel>
+        {/* text in mobile  */}
         <Carousel
           autoPlay={true}
           showThumbs={false}
@@ -101,7 +102,6 @@ export default class CarouselHomePage extends Component {
             </button>
           </div>
         </Carousel>
-        {/* // laptop carousle */}
       </>
     );
   }
