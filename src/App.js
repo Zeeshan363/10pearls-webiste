@@ -7,6 +7,8 @@ import CarouselDevelopers from "./components/CarouselDevelopers";
 import Motto from "./components/Motto";
 import Footer from "./components/Footer";
 import MyCarousel from "./components/MyCarousel";
+import MultiCarouselDeveloper from "./components/MultiCarouselDeveloper";
+import CarouselWork from "./components/CarouselWork";
 
 function App() {
   return (
@@ -14,10 +16,10 @@ function App() {
       <Navbar />
       <CarouselHomePage />
       <Partners />
-      {/* <CarouselDevelopers /> */}
+      <MultiCarouselDeveloper />
       <Motto />
+      <CarouselWork />
       <Footer />
-      {/* <MyCarousel /> */}
     </>
   );
 }
