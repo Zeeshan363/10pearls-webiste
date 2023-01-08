@@ -86,7 +86,7 @@ export default class CarouselHomePage extends Component {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Voluptatem, harum iste.
             </p>
-            <button className="text-sm py-2 px-10 my-5 border border-[#0045a6]">
+            <button className="text-sm py-2 px-10 my-5 border border-[#0045a6] hover:border-white hover:bg-[#0045a6] hover:text-white">
               Let's Build Something
             </button>
           </div>
